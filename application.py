@@ -8,3 +8,6 @@ def hello():
 @app.route("/ku")	
 def kuku():
 	return "kuku!"
+	
+if __name__ == "__main__":
+	app.run()
